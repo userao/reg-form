@@ -1,0 +1,11 @@
+.btn {
+    border: none;
+    border-radius: 5px;
+    background: rgb(65, 65, 250);
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.btn:disabled {
+    filter: grayscale(100%);
+}

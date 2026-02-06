@@ -1,0 +1,30 @@
+.input__label {
+    display: block;
+    position: relative;
+}
+
+.input__label-text {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    margin: 0;
+    z-index: 999;
+    color: #aaa;
+    line-height: 90%;
+    transition: all 0.2s ease-in-out;
+}
+
+.input {
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+
+.input__label-text.top {
+    top: -7px;
+    font-size: 0.8rem;
+    color: #333;
+    background: #fff;
+}
+
+

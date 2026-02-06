@@ -1,0 +1,35 @@
+.register-form {
+    min-width: max-content;
+    width: 30%;
+    max-width: 300px;
+}
+
+.register-form__input-wrapper {
+    position: relative;
+    margin-block: 1rem;
+}
+
+.register-form__err-msg {
+    position: absolute;
+    right: 0;
+    color: rgb(227, 47, 47);
+    font-size: 0.65rem;
+    padding: 0;
+    margin: 0;
+}
+
+.register-form__submit-btn {
+    width: 100%;
+}
+
+.register-form__header {
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
+
+.register-form__success-msg {
+    padding-block: 4rem;
+    text-align: center;
+    color: #333;
+}
